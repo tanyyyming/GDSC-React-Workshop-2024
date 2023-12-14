@@ -1,16 +1,17 @@
 import { Link } from 'react-router-dom';
 import Card from "./Card";
 import './ProjectCard.css';
+import '../style.css';
 
 function ProjectCard({ project }) {
   return (
-      <div className='project-card'>
+      <div className="project-card">
         <Card>
-          <div className='content'>
+          <div className="content">
             <Link to={`/projects/${project.id}`}>
-              <h3>{project.name}</h3>
+              <h1>{project.name}</h1>
             </Link>
-            <h4>{project.type}</h4>
+            <h2>{project.type}</h2>
             <p>{project.description}</p>
           </div>
         </Card>

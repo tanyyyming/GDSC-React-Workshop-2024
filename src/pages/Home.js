@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState } from 'react';
+import '../style.css';
 
 function Home() {
   const selfIntro = "I'm Mr Catawampus, a web developer from the UK. Click again to see my contact details.";
@@ -8,9 +9,9 @@ function Home() {
   const handleClick = () => setIsContact(!isContact);
   const displayText = isContact ? contact : selfIntro;
   return (
-    <div>
-      <h1>Home Page</h1>
-      <h2 onClick={handleClick}>{displayText}</h2>
+    <div className="content">
+      <p onClick={handleClick}>{displayText}</p>
+      <img src="catawampus.png" alt="catawampus profile" width="25%"/>
     </div>
   );
 }

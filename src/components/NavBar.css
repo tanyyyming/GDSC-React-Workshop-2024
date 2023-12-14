@@ -35,5 +35,5 @@
 .header a:hover,
 .header a:active,
 .header a.active {
-  color: rgb(255, 224, 51);
+  color: #333;
 }

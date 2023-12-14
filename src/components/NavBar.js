@@ -3,8 +3,8 @@ import './NavBar.css';
 
 function NavBar() {
   return (
-    <header className='header'>
-      <div className='logo'> GDSC React Workshop</div>
+    <header className="header">
+      <div className="logo"> GDSC React Workshop</div>
       <nav>
         <ul>
           <li>

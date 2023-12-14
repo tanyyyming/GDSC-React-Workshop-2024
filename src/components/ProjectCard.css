@@ -9,18 +9,3 @@
 .project-card a {
   text-decoration: none;
 }
-
-.content {
-  text-align: center;
-  padding: 1rem;
-}
-
-.content h3 {
-  font-size: 1.75rem;
-  color: #979;
-}
-
-.actions {
-  padding: 1.5rem;
-  text-align: center;
-}
