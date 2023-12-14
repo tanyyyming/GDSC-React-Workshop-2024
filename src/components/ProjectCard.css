@@ -6,6 +6,10 @@
   align: center;
 }
 
+.project-card a {
+  text-decoration: none;
+}
+
 .content {
   text-align: center;
   padding: 1rem;
