@@ -9,7 +9,7 @@ function Project({ projects }) {
       <h2>{project.type}</h2>
       <p>{project.description}</p>
     </div>
-  )
+  );
 }
 
 export default Project;
