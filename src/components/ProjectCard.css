@@ -4,8 +4,13 @@
   margin-bottom: 2rem;
   width: 50%;
   align: center;
+  transition: transform 0.3s ease-in-out;
 }
 
 .project-card a {
   text-decoration: none;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
 }
