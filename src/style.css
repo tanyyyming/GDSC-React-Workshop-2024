@@ -20,4 +20,18 @@
 
 .projects {
     margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.catawampus-img {
+    min-width: 300px;
+    width: 25%;
 }

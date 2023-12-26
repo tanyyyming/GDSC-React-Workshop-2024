@@ -11,7 +11,7 @@ function Home() {
   return (
     <div className="content">
       <p onClick={handleClick} style={{cursor: 'pointer'}}>{displayText}</p>
-      <img src="catawampus.png" alt="catawampus profile" width="25%"/>
+      <img src="catawampus.png" alt="catawampus profile" className="catawampus-img"/>
     </div>
   );
 }

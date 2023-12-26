@@ -6,12 +6,14 @@ function ProjectOverview({ projects }) {
     const clickedStateHandler = (projectId) => setClickedState(projectId);
 
   return ( 
-    <div className ="projects" >
+    <div>
         {clickedState && <h1 className="content">{`You are currently viewing project ${clickedState}`}</h1>}
+        <div className ="projects">
         {projects.map((p) => (
-            <ProjectCard project={p} 
+            <ProjectCard key={p.id} project={p} 
             clickedStateHandler={clickedStateHandler}/>
         ))}
+        </div>
     </div>
   );
 }

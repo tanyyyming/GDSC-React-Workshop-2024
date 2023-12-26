@@ -1,7 +1,5 @@
 .project-card {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2rem;
+  padding: 1rem;
   width: 50%;
   align: center;
   transition: transform 0.3s ease-in-out;
