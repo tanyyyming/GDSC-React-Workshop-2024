@@ -10,7 +10,7 @@ function Home() {
   const displayText = isContact ? contact : selfIntro;
   return (
     <div className="content">
-      <p onClick={handleClick}>{displayText}</p>
+      <p onClick={handleClick} style={{cursor: 'pointer'}}>{displayText}</p>
       <img src="catawampus.png" alt="catawampus profile" width="25%"/>
     </div>
   );

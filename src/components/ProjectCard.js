@@ -3,6 +3,7 @@ import Card from "./Card";
 import './ProjectCard.css';
 import '../style.css';
 import React, {useState} from 'react';
+
 function ProjectCard(props) {
     return (
         <div className={"project-card"}>
@@ -16,7 +17,9 @@ function ProjectCard(props) {
 
                 </div>
             </Link>
-                <button onClick={() => props.clickedStateHandler(props.project.id)}>Button</button>
+            <div className="btn-container">
+                <button className="btn" onClick={() => props.clickedStateHandler(props.project.id)}>View</button>
+            </div>
             </Card>
 
         </div>

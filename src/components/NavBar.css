@@ -8,9 +8,10 @@
 }
 
 .logo {
-  font-size: 1.75rem;
+  font-size: 1.2rem;
   color: white;
   font-weight: bold;
+  transition: font-size .25s linear; 
 }
 
 .logo-img {
@@ -26,15 +27,26 @@
 }
 
 .header li {
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 
 .header a {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: white;
+  transition: font-size .25s linear; 
 }
 
 .header a:hover {
   color: #333;
+}
+
+@media (min-width: 768px) {
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .header a {
+        font-size: 1.5rem;
+    }
 }
