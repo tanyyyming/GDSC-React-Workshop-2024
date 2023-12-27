@@ -1,11 +1,35 @@
 .project-card {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2rem;
+  padding: 1rem;
   width: 50%;
   align: center;
+  transition: transform 0.3s ease-in-out;
 }
 
 .project-card a {
   text-decoration: none;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
 }

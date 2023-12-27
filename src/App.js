@@ -8,16 +8,15 @@ import NavBar from './components/NavBar';
 function App() {
   return (
     <BrowserRouter>
-      <div>
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<ProjectOverview projects={projects}/>} />
           <Route path="/projects/:id" element={<Project projects={projects}/>} />
         </Routes>
-      </div>
     </BrowserRouter>
   )
 }
 
 export default App;
+
